@@ -12,7 +12,7 @@ QEMUVGA	 = $(CORE_DIR)/sources/src/qemuvga
 LIBFSEMU = $(CORE_DIR)/sources/libfsemu/src
 GEN      = $(CORE_DIR)/sources/gen
 
-INCFLAGS := -I$(EMU) -I$(EMU)/include -I$(LIBRETRO) -I$(CORE_DIR)/libretro-include -I$(LIBUTILS) -I$(ODFS) -I$(ODFS)/include -I$(EMU)/../softfloat -I$(CORE_DIR) -I$(LIBFSEMU)/../include
+INCFLAGS := -I$(EMU) -I$(EMU)/include -I$(LIBRETRO) -I$(CORE_DIR)/libretro-include -I$(LIBUTILS) -I$(ODFS) -I$(ODFS)/include -I$(EMU)/../softfloat -I$(CORE_DIR) -I$(LIBFSEMU)/../include -I$(LIBFSEMU)/../include/fs
 
 SOURCES_C =
 
