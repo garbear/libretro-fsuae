@@ -41,7 +41,7 @@
 #define CDTV 1
 
 /* Code generation (disable for cross-compilation) */
-//#undef CODEGEN
+#define CODEGEN 1
 
 /* generic 680x0 emulation */
 #define CPUEMU_0 1
