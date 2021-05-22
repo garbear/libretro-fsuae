@@ -1,1 +1,4 @@
-# dummy
+src/blitops.o: src/blitops.c /usr/include/stdc-predef.h \
+ src/include/genblitter.h
+/usr/include/stdc-predef.h:
+src/include/genblitter.h:
