@@ -53,6 +53,9 @@ endif
 
 CM_CFLAGS += -fvisibility=hidden
 
+# TODO: Fix locating glib.h
+CM_CFLAGS += -I/usr/include/glib-2.0
+
 AM_CFLAGS =
 
 AM_CXXFLAGS =
