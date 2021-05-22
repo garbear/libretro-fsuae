@@ -438,7 +438,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/vsts/work/1/s/game-addons/build/build/fsuae/src/fsuae'
+ac_pwd='/home/garrett/Documents/libretro-fsuae'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
@@ -837,12 +837,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/usr/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]=""
-S["install_sh"]="${SHELL} /home/vsts/work/1/s/game-addons/build/build/fsuae/src/fsuae/install-sh"
-S["MAKEINFO"]="${SHELL} '/home/vsts/work/1/s/game-addons/build/build/fsuae/src/fsuae/missing' makeinfo"
-S["AUTOHEADER"]="${SHELL} '/home/vsts/work/1/s/game-addons/build/build/fsuae/src/fsuae/missing' autoheader"
-S["AUTOMAKE"]="${SHELL} '/home/vsts/work/1/s/game-addons/build/build/fsuae/src/fsuae/missing' automake-1.16"
-S["AUTOCONF"]="${SHELL} '/home/vsts/work/1/s/game-addons/build/build/fsuae/src/fsuae/missing' autoconf"
-S["ACLOCAL"]="${SHELL} '/home/vsts/work/1/s/game-addons/build/build/fsuae/src/fsuae/missing' aclocal-1.16"
+S["install_sh"]="${SHELL} /home/garrett/Documents/libretro-fsuae/install-sh"
+S["MAKEINFO"]="${SHELL} '/home/garrett/Documents/libretro-fsuae/missing' makeinfo"
+S["AUTOHEADER"]="${SHELL} '/home/garrett/Documents/libretro-fsuae/missing' autoheader"
+S["AUTOMAKE"]="${SHELL} '/home/garrett/Documents/libretro-fsuae/missing' automake-1.16"
+S["AUTOCONF"]="${SHELL} '/home/garrett/Documents/libretro-fsuae/missing' autoconf"
+S["ACLOCAL"]="${SHELL} '/home/garrett/Documents/libretro-fsuae/missing' aclocal-1.16"
 S["VERSION"]="2.8.1u5"
 S["PACKAGE"]="fs-uae"
 S["CYGPATH_W"]="echo"
