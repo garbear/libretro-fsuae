@@ -13,7 +13,7 @@
 
 #else
 
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #include <glib/gstdio.h>
 
 #endif

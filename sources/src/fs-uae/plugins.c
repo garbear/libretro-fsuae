@@ -10,7 +10,7 @@
 
 #include <string.h>
 #include <stdlib.h>
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 
 #define NEW_PLUGINS 1
 

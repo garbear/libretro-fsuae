@@ -10,7 +10,7 @@
 #include <tchar.h>
 #include <stdio.h>
 #include <stddef.h>
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 
 #include <fs/lazyness.h>
 #include <fs/log.h>

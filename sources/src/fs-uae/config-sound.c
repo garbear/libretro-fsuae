@@ -5,7 +5,7 @@
 #include <uae/uae.h>
 #include <fs/conf.h>
 #include <fs/emu.h>
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #include "options.h"
 #include "config-sound.h"
 #include "config-model.h"

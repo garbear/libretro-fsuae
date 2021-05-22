@@ -23,7 +23,7 @@ extern SDL_Window* g_fs_ml_window;
 
 #include <SDL_syswm.h>
 // FIXME: REMOVE / replace with fs functions
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 
 #include <X11/Xlib.h>
 #include <X11/keysym.h>

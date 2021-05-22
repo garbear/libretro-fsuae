@@ -7,7 +7,7 @@
 
 #ifdef USE_GLIB
 
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 
 #else
 

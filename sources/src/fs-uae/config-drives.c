@@ -7,7 +7,7 @@
 #include <fs/emu.h>
 #include <stdlib.h>
 #include <fs/i18n.h>
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #include "options.h"
 #include "config-drives.h"
 #include "fs-uae.h"

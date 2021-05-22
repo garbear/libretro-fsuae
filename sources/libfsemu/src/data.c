@@ -10,7 +10,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdint.h>
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 
 #ifdef USE_ZLIB
 #include "zlib.h"

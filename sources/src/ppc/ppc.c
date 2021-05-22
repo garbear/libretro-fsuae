@@ -49,7 +49,7 @@ static volatile bool ppc_spinlock_waiting;
 static CRITICAL_SECTION ppc_cs1, ppc_cs2;
 static bool ppc_cs_initialized;
 #else
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 static GMutex mutex, mutex2;
 #endif
 

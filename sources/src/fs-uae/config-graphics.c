@@ -6,7 +6,7 @@
 #include <fs/conf.h>
 #include <fs/emu.h>
 #include <fs/i18n.h>
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #include "options.h"
 #include "config-graphics.h"
 #include "config-model.h"

@@ -165,7 +165,7 @@ void uae_time_use_rdtsc(bool enable)
 
 #elif defined(USE_GLIB)
 
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 
 static gint64 epoch;
 

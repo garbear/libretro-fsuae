@@ -75,7 +75,7 @@ inline int c99_snprintf(char* str, size_t size, const char* format, ...)
 #endif
 
 #ifdef USE_GLIB
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #else
 #define g_free free
 #define g_malloc malloc

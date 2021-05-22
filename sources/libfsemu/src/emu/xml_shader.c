@@ -20,7 +20,7 @@
 #include "libfsemu.h"
 
 #ifdef USE_GLIB
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #endif
 #ifdef USE_SDL2
 #include <SDL.h>

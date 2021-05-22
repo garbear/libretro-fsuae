@@ -30,7 +30,7 @@
 #endif
 #ifdef USE_GLIB
 // FIXME g_atomic_int_get / g_atomic_int_set
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #endif
 
 const char *fs_get_user_config_dir(void)

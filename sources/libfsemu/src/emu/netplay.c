@@ -48,7 +48,7 @@ void fs_emu_set_state_check_function(fs_emu_checksum_function function) {
 #include "libfsemu.h"
 
 #ifdef USE_GLIB
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #endif
 
 #define FS_EMU_NETPLAY_PROTOCOL_VERSION 1

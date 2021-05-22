@@ -15,7 +15,7 @@
 #include <SDL.h>
 #endif
 #ifdef USE_GLIB
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #endif
 
 #define DEBUG_CLIP 1

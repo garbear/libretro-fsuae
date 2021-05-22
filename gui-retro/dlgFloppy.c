@@ -25,7 +25,7 @@ const char DlgFloppy_fileid[] = "Hatari dlgFloppy.c : " __DATE__ " " __TIME__;
 #include "uae/uae.h"
 #include <fs/emu.h>
 #ifdef USE_GLIB
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 #endif /*USE_GLIB*/
 
 #define Log_AlertDlg fprintf

@@ -4257,7 +4257,7 @@ static CRITICAL_SECTION m68k_cs1;
 static bool m68k_cs_initialized;
 static DWORD m68k_cs_owner;
 #else
-#include <glib.h>
+#include "/usr/include/glib-2.0/glib.h"
 static int m68k_cs_owner;
 static bool m68k_cs_initialized;
 static GMutex mutex;
