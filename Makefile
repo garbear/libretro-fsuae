@@ -128,7 +128,7 @@ include Makefile.common
 
 OBJECTS += $(SOURCES_C:.c=.o) $(SOURCES_CXX:.cpp=.o) $(SOURCES_ASM:.S=.o)
 
-INCDIRS := $(EXTRA_INCLUDES) $(INCFLAGS)
+INCDIRS := $(EXTRA_INCLUDES) $(INCFLAGS) -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
 
 all: $(TARGET)
 
