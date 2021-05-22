@@ -829,10 +829,12 @@ DEFINES = -DFPUEMU -DUNALIGNED_PROFITABLE -DAMAX -DAGA -DAUTOCONFIG -DFILESYS  -
 #if W_MISSING_FORMAT_ATTRIBUTE
 #CM_CFLAGS += -Wmissing-format-attribute
 #endif
+
+# TODO: Fix locating glib.h
 CM_CFLAGS =  -pthread -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -DLUA_USE_POSIX  \
 	 -I/usr/include/libpng16  $(WARNINGS) \
 	$(am__append_1) $(am__append_2) $(am__append_3) \
-	$(am__append_4) -fvisibility=hidden
+	$(am__append_4) -fvisibility=hidden -I/usr/include/glib-2.0
 AM_CFLAGS = 
 AM_CXXFLAGS = 
 AM_CPPFLAGS = -DLINUX -DUAE -DFSUAE $(DEFINES) $(am__append_6) \
