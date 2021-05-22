@@ -433,7 +433,7 @@ EXTRA_DIST = $(TESTS) $(EXTRA_TESTS) \
 
 CLEANFILES = $(BUILT_SOURCES)
 
-if CODEGEN
+#if CODEGEN
 
 gen/blit.h: gen/genblitter$(EXEEXT)
 	$(b)/gen/genblitter$(EXEEXT) i > $(b)/gen/blit.h
@@ -491,7 +491,7 @@ gen/cputbl.h: gen/cpuemu_0.c
 gen/linetoscr.c: gen/genlinetoscr$(EXEEXT)
 	$(b)/gen/genlinetoscr$(EXEEXT) > $(b)/gen/linetoscr.c
 
-endif
+#endif
 
 catalogs = \
 	share/locale/cs/LC_MESSAGES/fs-uae.mo \
