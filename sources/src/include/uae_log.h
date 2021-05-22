@@ -19,7 +19,7 @@
 typedef void (UAECALL *uae_log_function)(const char *format, ...) UAE_PRINTF_FORMAT(1, 2);
 #ifdef UAE
 //UAEAPI void UAECALL uae_log(const char *format, ...) UAE_PRINTF_FORMAT(1, 2);
-void UAECALL uae_log(const char *format, ...) UAE_PRINTF_FORMAT(1, 2);
+void UAECALL uae_log(const char *format, ...)
 #else
 extern uae_log_function uae_log;
 #endif
