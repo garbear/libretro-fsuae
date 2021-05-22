@@ -143,14 +143,14 @@ $(TARGET): $(OBJECTS)
 ifeq ($(STATIC_LINKING),1)
 	$(AR) rcs $@ $(OBJECTS) 
 else
-	$(CC) $(fpic) $(SHARED) $(INCDIRS) -o $@ $(OBJECTS) $(LDFLAGS)
+	$(CC) -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include $(fpic) $(SHARED) $(INCDIRS) -o $@ $(OBJECTS) $(LDFLAGS)
 endif
 
 %.o: %.c
-	$(CC) $(fpic) $(CFLAGS) $(PLATFLAGS) $(INCDIRS) -c -o $@ $<
+	$(CC) -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include $(fpic) $(CFLAGS) $(PLATFLAGS) $(INCDIRS) -c -o $@ $<
 
 %.o: %.S
-	$(CC_AS) $(CFLAGS) -c $^ -o $@
+	$(CC_AS) -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include $(CFLAGS) -c $^ -o $@
 
 clean:
 	rm -f $(OBJECTS) $(TARGET) 
